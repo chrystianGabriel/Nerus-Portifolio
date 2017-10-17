@@ -1,0 +1,113 @@
+.nav{
+	
+	width: 100%;
+	position: fixed;
+	display: table;
+	padding: 10px 0px;
+	z-index: 1;
+
+}
+	.nav-bar{
+		height: 90px;
+	}
+
+.logo{
+	
+	width: 150px;
+	height: 70px;
+
+}
+	.logo label{
+		font-family: "Century Gothic";
+		color: #FD6703;
+
+	}
+	.logo img{
+		width: 200px;
+		margin-top: 20px;
+	}
+
+.menu{
+	height: 0px;
+	overflow-y: hidden;
+	transition: .6s all;
+		-webkit-transition: .6s all;
+			-moz-transition: .6s all;
+
+
+}
+
+.menu-item{
+	background: #2E2E2E;
+}
+
+
+
+	@media(min-width: 960px){
+		.menu{
+			display: block;
+			height: : 100%;
+			overflow-y: visible;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding: 20px 0px;
+			list-style: none;
+		}
+		.menu-item{
+			display: inline;
+			float: right;
+			padding: 10px;
+
+		}
+	}
+
+
+	@media(max-width: 959px){
+		.menu-botao{
+			display: inline;
+			float: right;
+			height: 100%;
+			width: 30px;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding: 20px 0px;
+
+		}
+		.linha{
+			border: 2px solid;
+			display: block;
+			height: 3px;
+			width: 30px;
+			margin-top: 2px;
+			transition: .5s all;
+			
+
+		}
+	}
+
+	@media(max-width: 959px){
+		.menu{
+			position: absolute;
+			top: 100%;
+			left: -50%;
+			list-style: none;
+			width: 100%;
+			transform: translateX(50%);
+				-webkit-transform: translateX(50%);
+				-moz-transform: translateX(50%);
+			text-align: center;
+			
+
+		}
+		.menu-item{
+			
+			display: block;
+			padding: 10px;
+
+		}
+
+	}
+
+	.menu-item:hover{
+		border-bottom: 2px solid #FD6703;
+	}

@@ -1,0 +1,56 @@
+Dados Pessoais: 
+
+nome: Chrystian agbriel da silva sousa
+
+rg: 7488484
+
+cpf: 703.236.031-90
+
+cep: 74946-020
+
+logradouro: 100
+
+cidade: Aparecida de Goiânia
+
+stado: GO
+
+numero: 00
+
+complemento: quadra 28 lote 26
+
+Dados de Contato: 
+
+telefone: (62)3288-0970
+
+email: chrystiangabriel1@hotmail.com
+
+celular: (62)98430-0184
+
+wpp: não
+
+Dados Bancarios: 
+
+banco: 55
+
+conta: 5565656
+
+agencia: 55556
+
+tipo conta: cc
+
+Dados de Revendas: 
+
+Hipermercado: R$ 656,565
+
+mercado: R$ 56,556,565
+
+via varejo: R$ 65,565,656
+
+confecçao: R$ 6,565,656
+
+açougue: R$ 65,656,565
+
+posto de combutivel: R$ 5,6,56,,565
+
+Disponivel para viagem?  não
+

@@ -1,0 +1,60 @@
+@face-font{
+    font-family: 'Century Gothic';
+    src: url('../fonts/Century Gothic.ttf');
+}
+#titulo{
+  position: absolute;
+  color: #FF6c00;
+  margin-left: -70px;
+  font-weight: 900;
+  top: 30px;
+  font-size: 30px;
+  font-family: 'Century Gothic';
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+
+
+
+}
+.navbar{
+  background: #0D0D0D;
+  height: 80px;
+}
+
+.texto-menu{
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 40px;
+  margin-top: -20px;
+
+}
+.texto-menu:hover{
+  color: rgba(255,108,0,.9);
+}
+#botao-sair{
+
+  color: black;
+  background: #FF6C00;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -7px;
+
+}
+.item-menu{
+    margin-top: 30px;
+}
+#botao-sair:hover{
+  background: rgba(255,108,0,.8);
+}
+
+.texto-menu a{
+  color: white;
+}
+
+.texto-menu a:hover{
+  color: rgba(255,108,0,.9);
+}

@@ -1,0 +1,174 @@
+/*Aqui vai todas as edições que sao globais*/
+@face-font{
+    	font-family: 'Century Gothic';
+        src: url('../fonts/Century Gothic.ttf');
+ }
+/*Reset basico dos elementos*/
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: white;
+	font-family: "Century Gothic";
+
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background: url("../img/back_protifolio_nerus.png") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+section{
+	padding: 2px;
+	width: 100%;
+	display: block;
+	transform:translateY(124px);
+	-webkit- transform:translateY(124px);
+	-moz- transform:translateY(124px);
+
+}
+
+.carousel{
+	color:white;
+	font-family: "Century Gothic";
+	padding: 30px;
+}
+	.carousel h3{
+		color: #fd6703;
+		margin-top: 20px;
+		margin-left: 50px;
+		width: 100%;
+	}
+	.carousel p{
+		margin-top: 20px;
+	}
+
+.content{
+	background: rgba(46,46,46,.9);
+	margin-top:30px;
+	padding: 20px;
+	
+	
+}
+.borda-laranja{
+	border: 2px solid #FD6703;
+}
+@media(min-width: 768px){
+	.centralizar{
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	.centralizar-3{
+		margin-left:33.3333%;
+		transform: translateX(-33.3333%);
+	}
+}
+
+
+
+
+
+
+.titulo{
+	text-align: center;
+	font-family: "Century Gothic";
+	border-bottom: 2px solid white;
+	font-size: 250%;
+	margin-top: 20px;
+	color: #FD6703;
+	margin-bottom: 30px;
+
+}
+
+.rodape{
+	margin-top:200px;
+	background: #2e2e2e;
+	text-align: center;
+}
+.seta-cima{
+	width: 100px;
+	margin-top: 30px;
+}
+.icone{
+	margin-top:20px;
+	padding: 10px;
+	
+}
+a{
+	color: white;
+	font-size: 20px;
+	display: block;
+	font-family: "Century Gothic";
+}
+
+.botao{
+	
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	border: 2px solid #FD6703;
+	background: #FD6703;
+	padding-top: 5px;
+	text-align: center;
+	font-family: "Century Gothic";
+	
+}
+
+.botao-outline{
+	border: 2px solid #FD6703;
+	background: transparent;
+
+}
+
+.botao-outline:hover{
+	background: #FD6703;
+}
+
+.centralizar-tela{
+	transform: translateY(50%);
+}
+
+.form-group label{
+	color:#FD6703;
+	display: block;
+
+}
+
+.enviar{
+	float: right;
+	margin-top: 10px;
+}
+
+
+::-webkit-input-placeholder{
+	padding: 5px;
+	color: white;
+	opacity: .7;
+
+}
+::-moz-input-placeholder{
+	padding: 5px;
+	color: white;
+	opacity: .7;
+	
+}
+::-o-input-placeholder{
+	padding: 5px;
+	color: white;
+	opacity: .7;
+	
+}
+::-ms-input-placeholder{
+	padding: 5px;
+	color: white;
+	opacity: .7;
+	
+}

@@ -1,0 +1,107 @@
+
+#login-page{
+
+	width: 20%;
+	height: auto;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+
+}
+body{
+  background: black;
+}
+#login-fundo {
+	width: 300px;
+	height: 300px;
+	box-shadow: 2px 2px 2px 2px black;
+
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+
+
+}
+#login-fundo input:nth-child(1){
+	height: px;
+	margin-top: 100px;
+
+
+
+}
+#login-fundo input{
+	margin-left: 15px;
+	width: 90%;
+	margin-top: 10px;
+}
+
+p{
+	text-align: center;
+	font-size: 60px;
+	color: #ff6c00;
+	font-weight: 900;
+
+
+
+
+}
+p:nth-child(2){
+	margin-top: -25px;
+	font-size: 20px;
+}
+
+
+.prefixo {
+	color: #FF6C00;
+	font-size: 30px;
+	margin-right: -10px;
+	margin-top: 6px
+
+}
+.posfixo{
+	position: absolute;
+
+
+}
+::-webkit-input-placeholder{
+	color: #afafaf;
+	text-align: left;
+	font-weight: 900;
+}
+::-moz-input-placeholder{
+	color: #afafaf;
+	text-align: left;
+	font-weight: 900;
+}
+::-o-input-placeholder{
+	color: #afafaf;
+	text-align: left;
+	font-weight: 900;
+}
+::-ms-input-placeholder{
+	color: #afafaf;
+	text-align: left;
+	font-weight: 900;
+}
+
+
+.enviar {
+	width: 300px;
+	height: 30px;
+	font-weight: 900;
+	font-size: 20px;
+	color: #ff6c00;
+	background: black;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	border:0px;
+
+
+}

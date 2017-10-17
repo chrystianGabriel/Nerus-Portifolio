@@ -1,0 +1,77 @@
+
+/*container*/
+.container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 20px;
+	
+
+
+}
+@media(min-width: 1170px){
+	.container{
+		max-width: 1170px;
+		padding: 0px;
+	}
+}
+
+/*linha*/
+.row{
+	margin-left: -5px;
+	margin-right: 5px;
+}
+/*Codigo abaixo evita que elementos flutem para fora da row*/
+.row:before,
+.row:after{
+	content: "";
+	display: table;
+
+}
+
+.row:after{
+	clear: both;
+}
+
+/*colunas*/
+.col{
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+
+	/*Para adaptar o display inline-block para navegadores antigos*/
+	*zoom: 1;
+	*display: inline;
+}
+
+	/*duas Colunas*/
+	@media(min-width: 480px){
+		.col-2{
+			width: 50%;
+		
+		}
+
+	}
+
+	/*tres Colunas*/
+	@media(min-width: 728px){
+		.col-3{
+			width: 33.33333%;
+		}
+
+	}
+
+	@media(min-width: 958px){
+		.col-4{
+			width: 25%;
+		}
+
+		
+
+	}
+
+

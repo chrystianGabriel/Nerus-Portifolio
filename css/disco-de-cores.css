@@ -1,0 +1,98 @@
+.paleta-grid{
+	width: 100px;
+	height: 100px;
+	float: left;
+	color: #2e2e2e;
+	font-weight: 900;
+
+	
+
+}
+section{
+
+	transition: 1s all;
+
+}
+section:nth-child(2){
+	opacity: 1;
+	margin-top: 0px;
+}
+
+#historia{
+	margin-top:50px;
+}
+
+.paleta-janela{
+	
+	width: 100%;
+	margin-top:20px;
+	margin-left:50%;
+	transform: translateX(-50%);
+	border: 2px solid transparent;
+	align-items: center;
+	
+
+}
+
+.circulo{
+	width:150px;
+	height: 150px;
+	border-radius: 100%;
+	text-align: center;
+}
+	.circulo:hover{
+		transform: scale(1.2);
+	}
+
+.circulo > label{
+	position: absolute;
+	color: #2e2e2e;
+	font-weight: 900;
+	margin-top: 70px;
+	margin-left: -15px;
+}
+.topo-esquerda{
+	float:left;
+	margin-left:20%;
+	background: #c190fd;
+	
+	
+}
+.topo-direita{
+	float: left;
+	margin-left: 20px;
+	background: #fd9090;
+	
+
+}
+.base{
+	margin-top: 155px;
+	margin-left:35%;
+	background: #fddf90;
+	
+	
+}
+
+
+.historia-conteudo{
+	width: 100%;
+	height: 300px;
+	padding: 50px;
+	border: 2px solid #FD6703;
+	margin-top:30px;
+	color: white;
+	font-family: "Century Gothic";
+}
+
+.historia-conteudo:nth-child(2){
+	display: none;
+}
+
+.historia-conteudo:nth-child(3){
+	display: none;
+}
+
+.historia-conteudo:nth-child(4){
+	display: none;
+}
+
